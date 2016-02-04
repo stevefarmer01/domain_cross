@@ -32,7 +32,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity level_change_domain is
-    generic(number_of_domain_cross_regs : natural := 2)
+    generic(number_of_domain_cross_regs : natural := 2);
     Port ( signal_in : in  STD_LOGIC;
            SystemClk : in  STD_LOGIC;
            signal_out : out  STD_LOGIC);
